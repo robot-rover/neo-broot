@@ -1,0 +1,30 @@
+[[verbs]]
+invocation = "split"
+shortcut = "sp"
+cmd = ":write_output split {file};:quit"
+apply_to = "file"
+
+[[verbs]]
+invocation = "vsplit"
+shortcut = "vs"
+cmd = ":write_output vsplit {file};:quit"
+apply_to = "file"
+
+[[verbs]]
+invocation = "tabedit"
+shortcut = "tabe"
+cmd = ":write_output tabedit {file};:quit"
+apply_to = "file"
+
+[[verbs]]
+invocation = "edit"
+key = "enter"
+shortcut = "e"
+cmd = ":write_output edit {file};:quit"
+apply_to = "file"
+
+[[verbs]]
+invocation = "cd"
+cmd = ":write_output cd {file};:quit"
+apply_to = "directory"
+leave_broot = true
