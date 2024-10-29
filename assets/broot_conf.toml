@@ -17,6 +17,12 @@ cmd = ":write_output tabedit {file};:quit"
 apply_to = "file"
 
 [[verbs]]
+invocation = "tabcont"
+shortcut = "tabc"
+cmd = ":write_output tabedit {file}"
+apply_to = "file"
+
+[[verbs]]
 invocation = "edit"
 key = "enter"
 shortcut = "e"
@@ -27,4 +33,8 @@ apply_to = "file"
 invocation = "cd"
 cmd = ":write_output cd {file};:quit"
 apply_to = "directory"
-leave_broot = true
+
+[[verbs]]
+invocation = "cdc"
+cmd = ":write_output cd {file}"
+apply_to = "directory"
