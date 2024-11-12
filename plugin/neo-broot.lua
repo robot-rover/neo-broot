@@ -39,6 +39,7 @@ function open_broot_in(path)
         vim.cmd.split(file)
       elseif command == "vsplit" then
         vim.cmd.vsplit(file)
+      elseif command == "echo" then
       else
         error("Unknown command " .. command)
       end

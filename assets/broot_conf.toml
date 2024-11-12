@@ -19,7 +19,7 @@ apply_to = "file"
 [[verbs]]
 invocation = "tabcont"
 shortcut = "tabc"
-cmd = ":write_output tabedit {file}"
+internal = ":write_output tabedit {file}"
 apply_to = "file"
 
 [[verbs]]
@@ -36,5 +36,9 @@ apply_to = "directory"
 
 [[verbs]]
 invocation = "cdc"
-cmd = ":write_output cd {file}"
+internal = ":write_output cd {file}"
 apply_to = "directory"
+
+[[verbs]]
+invocation = "echo"
+internal = ":write_output echo {file}"
